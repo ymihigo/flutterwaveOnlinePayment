@@ -1,0 +1,26 @@
+{
+  "name": "flutterwave",
+  "version": "1.0.0",
+  "description": "online payment with flutterwave",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Mihigo Yves",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ymihigo/flutterwaveOnlinePayment.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ymihigo/flutterwaveOnlinePayment/issues"
+  },
+  "homepage": "https://github.com/ymihigo/flutterwaveOnlinePayment#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  }
+}
